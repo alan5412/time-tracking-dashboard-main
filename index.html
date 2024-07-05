@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  
+  
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+<body>
+
+  <main>
+    <div class="user-card">
+      <div class="user-card_profile">
+          <img src="./images/image-jeremy.png" alt="Profile">
+          <div>
+            <p>Report for</p>
+            <p>Jeremy Robson</p>
+          </div>
+      </div>
+      <div class="user-card_menu">
+        <a class="user-card_menu_select activo" id="Daily-set" >Daily</a>
+        <a class="user-card_menu_select " id="Weekly-set">Weekly</a>
+        <a class="user-card_menu_select " id="Monthly-set">Monthly</a>
+      </div>
+    </div>
+
+    <div class="cards-container" data-ul>
+      
+      <div class="topic-card" >
+        <div class=" topic-card__info">
+          <div class="topic-card__info__set">
+            <p>Work</p>
+            <p>32hrs</p>
+            
+          </div>
+          <div class="topic-card__info__hr" >
+            <img src="./images/icon-ellipsis.svg" alt="">
+            <p>Last Week - 36 hrs</p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+
+
+  </main>
+  
+
+
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  <script src="./main.js"></script>
+</body>
+</html>
